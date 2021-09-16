@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin:auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-adress {
+    max-width: 690px;
+    width: 100%;
+    padding: 8px 12px 8px 32px;
+    background: url(../img/home.svg) no-repeat 10px center;
+    
+}
+.input-adress::placeholder {
+    line-height: 24px;
+    color:#bfbfbfbf
+}
+.input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    outline: none;
+}
+.section_header {
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+.logo {
+    max-height: 40px;
+}
+.logo_img {
+    max-height: 40px;
+}
+.button {
+    font-family: 'Open Sans', sans-serif;        
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;    
+    padding: 8px 19px 8px 33px;
+    border:none;
+    border-radius:2px;
+    margin-left: 9px;
+}
+.button_man {
+    background: url(../img/chel.svg) no-repeat 16px center;
+}
+.button-primary {
+    background-color:#1890FF;
+    color:#fff;
+    border: 1px solid #1890FF;
+}
+.button_cart {
+    background: url(../img/korzina.svg) no-repeat 16px center;
+}
+.button-secondary {
+    border: 1px solid #D9D9D9;
+}
+
+.section_promo {
+    font-family: 'Roboto' sans-serif;
+    margin-bottom: 46px;
+}
+.block_promo {
+    background: #FFF1B8 url(../img/svetik.png) no-repeat right center;
+    padding: 68px 0;
+    padding-left: 71px;
+    border-radius: 10px;
+}
+
+.promo_info {
+    max-width: 530px;
+    width: 100%;
+}
+
+.promo_title {
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 39px;
+    line-height: 46px;
+    margin-bottom: 18px;
+}
+
+.promo_desc {
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 24px;
+    Line-height: 28px;
+}
+
+.rest_search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.input_search {
+    max-width: 306px;
+    width: 100%;
+    padding: 5px 12px 5px 32px;
+    background: url(../img/search.svg) no-repeat 10px 11px;
+}
+
+.input-search::placeholder {
+    line-height: 24px;
+    color:#bfbfbfbf;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.card {
+    max-width: 384px;
+    width: 100%;
+}
+
+.card_main {
+    padding: 21px 24px 35px;
+}
+
+.card_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title_time {
+    background: #262626;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card_desc {
+    display: flex;
+    justify-content: start;
+}
+
+.card_reit {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+
+.card_reit::before {
+    content:"";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: -22px;
+    background: url(../img/zvezda.svg) no-repeat center / cover;
+}
