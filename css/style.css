@@ -9,6 +9,11 @@
     font-style: normal;
     font-size: 18px;
 }
+
+body {
+    background: #f5f5f5;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -107,6 +112,17 @@
     Line-height: 28px;
 }
 
+.section_restourants {
+    padding-top: 56px;
+    padding-bottom: 19px;
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
 .rest_search {
     display: flex;
     justify-content: space-between;
@@ -125,14 +141,19 @@
     color:#bfbfbfbf;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 .card {
+    background: #FFFFFF;
     max-width: 384px;
     width: 100%;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .card_main {
@@ -144,6 +165,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .title_time {
@@ -161,6 +188,7 @@
 .card_desc {
     display: flex;
     justify-content: start;
+    align-items: center;
 }
 
 .card_reit {
@@ -169,6 +197,7 @@
     font-size: 18px;
     line-height: 32px;
     color: #FFC107;
+    margin-left: 22px;
 }
 
 .card_reit::before {
@@ -179,4 +208,59 @@
     top: 8px;
     left: -22px;
     background: url(../img/zvezda.svg) no-repeat center / cover;
+}
+
+.card_price {
+    color: #8C8C8C;
+    margin-left: 26px;
+}
+
+.card_category {
+    color: #8C8C8C;
+    position: relative;
+    margin-left: 23px;
+}
+
+.card_category::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2.5px;
+    left: -15px;
+    width: 5px;
+    height: 5px;
+    background: #8C8C8C;
+    border-radius: 50%;
+}
+
+.section_footer {
+    background-color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.nav_footer {
+    margin-left: 36px;
+}
+
+.block_navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav_item {
+    line-height: 21px;
+    color: #595959;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.social_img {
+    height: 25px;
+    margin-left: 25px;
 }
