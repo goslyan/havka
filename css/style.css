@@ -179,6 +179,11 @@ body {
     margin-bottom: 30px;
 }
 
+.button--primary:hover, .button--secondary:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
 .card:hover {
     transform: rotate(3deg);
     transition-duration: 1s;
@@ -303,12 +308,6 @@ body {
     margin-left: 25px;
 }
 
-
-
-
-
-
-
 .restour__desc {
     display: flex;
     align-items: center;
@@ -350,7 +349,6 @@ body {
     margin-left: 0;
 }
 
-/*модальное окно*/
 .modal {
     display: none;
     width: 100%;
@@ -458,8 +456,6 @@ body {
     color: white;
 }
 
-/*переключатель*/
-
 .open {
     display: block;
     visibility: visible;
@@ -467,7 +463,6 @@ body {
 
 
 
-/* адаптация под экраны */
 /* если шишрина экрана стала <= 1200px */
 @media (max-width: 1240px) {
     .container {
